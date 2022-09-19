@@ -1,7 +1,8 @@
 package io.kohpai
 
+import io.kohpai.plugins.configureRouting
+import io.kohpai.plugins.configureSockets
 import io.ktor.server.application.*
-import io.kohpai.plugins.*
 
 fun main(args: Array<String>): Unit =
     io.ktor.server.netty.EngineMain.main(args)
